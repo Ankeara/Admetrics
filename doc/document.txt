@@ -1,0 +1,346 @@
+Web design: This project built by HTML, CSS, JAVASCRIPT and no plugin orther framework or library.
+
+I. Customs
+    1. Fonts: Font family, Font size, Font weight
+        + Font Family
+            - Noto Sans
+        + Font Size
+            - --fs-12
+            - --fs-14
+            - --fs-16
+            - --fs-18
+            - --fs-20
+            - --fs-24
+            - --fs-28
+            - --fs-32
+            - --fs-36
+            - --fs-40
+            - --fs-44
+            - --fs-56
+        + Font Weight
+            - --fw-500
+            - --fw-600
+            - --fw-700
+            - --fw-800
+    2. Background, Color and Border color
+        + Background 
+            - --bg-white      : #ffffff;
+            - --bg-gray-100   : #f3f4f6;
+            - --bg-green-100  : #dcfce7;
+            - --bg-green-500  : #22c55e;
+            - --bg-orage-100  : #ffedd5;
+            - --bg-orage-500  : #f97316;
+            - --bg-yellow-100 : #fef9c3;
+            - --bg-yellow-500 : #eab308;
+        + Color
+            - --color-white       : #ffffff;
+            - --color-gray-300    : #e5e7eb;
+            - --color-gray-400    : #9ca3af;
+            - --color-gray-900    : #111827;
+            - --color-green-100   : #dcfce7;
+            - --color-green-500   : #22c55e;
+            - --color-oragen-100  : #ffedd5;
+            - --color-oragen-500  : #f97316;
+            - --color-yellow-100  : #fef9c3;
+            - --color-yellow-500  : #eab308;
+        + Border color
+            - --border-gray-300    : #e5e7eb;
+            - --border-green-500   : #22c55e;
+            - --border-oragen-500  : #f97316;
+            - --border-yellow-500  : #eab308;
+    3. Border raduis
+        + Border raduis
+            - --border-raduis-4
+            - --border-raduis-8
+            - --border-raduis-12
+            - --border-raduis-18
+            - --border-raduis-50
+    4. Margin and Padding
+        + Margin
+            - --margin-4
+            - --margin-8
+            - --margin-12
+            - --margin-16
+            - --margin-18
+        + Padding
+            - --padding-4
+            - --padding-8
+            - --padding-12
+            - --padding-16
+            - --padding-18
+    5. Icons 
+        +svg 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                    <path d="M14.401 8c-.669 -.628 -1.5 -1 -2.401 -1c-2.21 0 -4 2.239 -4 5s1.79 5 4 5c.9 0 1.731 -.372 2.4 -1"></path>
+                    <path d="M7 10.5h4"></path>
+                    <path d="M7 13.5h4"></path>
+                </svg>
+            )
+        + Search icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                    <path d="M21 21l-6 -6"></path>
+                </svg>
+            )
+        + Dark Mode icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+                </svg>
+            )
+        + Notification icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                    <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                </svg>
+            )
+        + Arrow down icon 
+            - (
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M17 13v-6l-5 4l-5 -4v6l5 4z"></path>
+                </svg> 
+            )
+        + Switch icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M17 10h-14l4 -4"></path>
+                    <path d="M7 14h14l-4 4"></path>
+                </svg>
+            )
+        + Dot icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                    <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                    <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                </svg>
+            )
+        + Calendar icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+                    <path d="M16 3v4"></path>
+                    <path d="M8 3v4"></path>
+                    <path d="M4 11h16"></path>
+                    <path d="M11 15h1"></path>
+                    <path d="M12 15v3"></path>
+                </svg>
+            )
+        + Next icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"></path>
+                </svg>
+            )
+        + Prevous icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M17 6h-6a1 1 0 0 0 -.78 .375l-4 5a1 1 0 0 0 0 1.25l4 5a1 1 0 0 0 .78 .375h6l.112 -.006a1 1 0 0 0 .669 -1.619l-3.501 -4.375l3.5 -4.375a1 1 0 0 0 -.78 -1.625z"></path>
+                </svg>
+            )
+        + Stop icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M9 4h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2z"></path>
+                    <path d="M17 4h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2z"></path>
+                </svg>
+            )
+        + Play icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z"></path>
+                </svg>
+            )
+        + Plug icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M12 5l0 14"></path>
+                    <path d="M5 12l14 0"></path>
+                </svg>
+            )
+        + Home icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+                </svg>
+            )
+        + Analysis icon 
+            - (
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                    <path d="M7 15v2"></path>
+                    <path d="M10 11v6"></path>
+                    <path d="M13 13v4"></path>
+                </svg>
+            )
+        + Services icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path>
+                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                </svg>
+            )
+        + Profile icon 
+            - (
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"></path>
+                    <path d="M10 16h6"></path>
+                    <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                    <path d="M4 8h3"></path>
+                    <path d="M4 12h3"></path>
+                    <path d="M4 16h3"></path>
+                </svg> 
+            )
+        + Notification icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="24" height="24" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor">
+                    <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                    <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                </svg>
+            )
+        + Progress icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M3 12a9 9 0 0 0 9 9a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9"></path>
+                    <path d="M17 12a5 5 0 1 0 -5 5"></path>
+                </svg>
+            )
+        + Pin icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                </svg>
+            )
+        + Warning icon 
+            - (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+                    <path d="M12 8v4"></path>
+                    <path d="M12 16h.01"></path>
+                </svg>
+            )
+II. Detail website
+    1. Admetrics
+        # Statistics
+            + Asidebar
+                - Header
+                    > Logo: icon
+                    > Text: Admetrics
+                - Body 
+                    > Profile
+                        - Image: Avatar
+                        - Full name: Annette Black
+                        - Email: annblack@gmail.com
+                    > Switch
+                        - Icon: Switch
+                        - Text: Finacial Trable
+                        - Arrow down: Arrow down
+                    > List menu
+                        + Dashboard 
+                            - Icon: Home
+                            - Text: Dashboard
+                        + Statistics
+                            - Icon: Statistics
+                            - Text: Statistics
+                        + Services
+                            - Icon: Services
+                            - Text: Services
+                        + Task
+                            - Icon: Profile
+                            - Text: Task list
+                        + Notification
+                            - Icon: Notification
+                            - Text: Notification
+            + Header
+                - Search
+                    > Icon: Search
+                    > Placehorder: Search
+                - Dark Mode
+                    > Icon: Dark Mode
+                - Notification
+                    > Icon: Notification
+                - Profile
+                    > Image: Avatar
+                    > Name: Annette
+                    > Icon: Arrow down
+            + Secction container
+                - Container 1
+                    > Box 1
+                        + Income statistics
+                            - Text: Income Statistics
+                            - Icon: Dot
+                        + Rank
+                            - Text: +8%
+                        + Chart
+                            - $5m
+                            - $10m
+                            - $15m
+                    > Box 2
+                        + Time Tracker
+                            - Text: Time Tracker
+                            - Calendar: 
+                                + Icon: Calendar
+                                + Text: Today
+                                + Icon: Arrow down
+                        + Monthly Total
+                            - Text: Monthly Total
+                        + Circle Hour
+                            - Hour: 00:00
+                            - Text: HOURS
+                        + Button Play
+                            - Button: Stop
+                            - Button: Play
+                            - Button: Add
+                    > Box 3
+                        + Calendar
+                            - Text: Calendar
+                            - Calendar: 
+                                + Icon: Next
+                                + Text: November
+                                + Icon: Prevous
+                        + Week
+                            - Text: Sun, Mon, Tue, Wed, Thu, Fri, Sat
+                        + Monthly
+                            - 01 to 31 
+                - Container 2
+                    > Box 1
+                        + Latest transactions
+                            - Text: Latest transactions
+                            - Text: See all
+                        + Header table 
+                            - Name/Phone
+                            - Status
+                            - Source
+                            - Amount
+                        + Body table
+                            > Row 1 
+                                + Image: Avatar
+                                + Name/Phone: Jakob joness/(123)123-4355 
+                                + Status:
+                                    - Icon: Progress
+                                    - Text: Inprogress
+                                + Source: Online
+                                + Amount: $12345
+                            > Row 2
+                                + Image: Avatar
+                                + Name/Phone: Jakob joness/(123)123-4355 
+                                + Status:
+                                    - Icon: Progress
+                                    - Text: Inprogress
+                                + Source: Online
+                                + Amount: $12345
+                    > Box 2 
+                        + Top places
+                            - Text: Top places
+                            - Icon: Dot
+                        +Image 
+                            - Image: Location
+                            
+        

@@ -1,0 +1,436 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>statistics</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/statistics.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="asidebar">
+            <a href="#" class="logo">
+                <span class="icon__logo">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M14.401 8c-.669 -.628 -1.5 -1 -2.401 -1c-2.21 0 -4 2.239 -4 5s1.79 5 4 5c.9 0 1.731 -.372 2.4 -1"></path>
+                        <path d="M7 10.5h4"></path>
+                        <path d="M7 13.5h4"></path>
+                    </svg>
+                </span>
+                <span class="logo__name">Admetrics</span>
+            </a>
+            <div class="profile">
+                <div class="avatar">
+                    <img src="" alt="">
+                </div>
+                <span class="fullname">Annette Black</span>
+                <span class="email">anneblack@gmai.com</span>
+            </div>
+            <div class="switch">
+                <svg class="icon__switch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" width="14" height="14" stroke-width="1.5">
+                    <path d="M17 10h-14l4 -4"></path>
+                    <path d="M7 14h14l-4 4"></path>
+                </svg>
+                <span class="text">Finacial Trable</span>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                    <path d="M17 13v-6l-5 4l-5 -4v6l5 4z"></path>
+                </svg>
+            </div>
+            <ul class="list__menu">
+                <li class="lists">
+                    <a class="link" href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" width="22" height="22" stroke-width="1.5">
+                            <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+                            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+                        </svg>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="lists">
+                    <a class="link active" href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" width="22" height="22" stroke-width="1.5">
+                            <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M7 15v2"></path>
+                            <path d="M10 11v6"></path>
+                            <path d="M13 13v4"></path>
+                        </svg>
+                        Statistics
+                    </a>
+                </li>
+                <li class="lists">
+                    <a class="link" href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" width="22" height="22" stroke-width="1.5">
+                            <path
+                                d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z">
+                            </path>
+                            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                        </svg>
+                        Services
+                    </a>
+                </li>
+                <li class="lists">
+                    <a class="link" href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" width="22" height="22" stroke-width="1.5">
+                            <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"></path>
+                            <path d="M10 16h6"></path>
+                            <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                            <path d="M4 8h3"></path>
+                            <path d="M4 12h3"></path>
+                            <path d="M4 16h3"></path>
+                        </svg>
+                        Task list
+                    </a>
+                </li>
+                <li class="lists">
+                    <a class="link" href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="22" height="22" stroke-width="1.5"
+                            stroke-linejoin="round" stroke-linecap="round" stroke="currentColor">
+                            <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                            <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                        </svg>
+                        Notification
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="search">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" width="22" height="22" stroke-width="1.5">
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                    <path d="M21 21l-6 -6"></path>
+                </svg>
+                <input type="text" class="input__data" placeholder="Search..">
+            </div>
+
+            <div class="action">
+                <div class="menu__bar" id="toggle-menu-bar">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                        <path d="M10 6h10"></path>
+                        <path d="M4 12h16"></path>
+                        <path d="M7 12h13"></path>
+                        <path d="M4 18h10"></path>
+                    </svg>
+                </div>
+                <div class="dropdown__wrapper">
+                    <span class="toggle__show__dropdown">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                            <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                            <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                            <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        </svg>
+                    </span>
+                    <div class="dropdown__menu">
+                        <a href="#" class="dropdown__item">Toggle Dark Mode</a>
+                        <a href="#" class="dropdown__item">Notification</a>
+                        <div class="account__dropdown">
+                            <div class="avatar">
+                                <img src="" alt="">
+                            </div>
+                            <span class="fullname">Annette</span>
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                                <path d="M17 13v-6l-5 4l-5 -4v6l5 4z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <span class="dark__mode">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+                    </svg>
+                </span>
+
+                <span class="nofiti">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                        <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                        <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                    </svg>
+                </span>
+
+                <div class="account">
+                    <div class="avatar">
+                        <img src="" alt="">
+                    </div>
+                    <span class="fullname">Annette</span>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                        <path d="M17 13v-6l-5 4l-5 -4v6l5 4z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid__statis">
+            <div class="income">
+                <div class="flex__income">
+                    <span class="title">Income Statistics</span>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" width="18" height="18" stroke-width="1.5">
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                    </svg>
+                </div>
+                <div class="rank">
+                    <span class="num">+8%</span>
+                </div>
+                <div class="chart__track">
+                    <canvas id="incomeChart"></canvas>
+                </div>
+            </div>
+            <div class="tracker">
+                <div class="flex__track">
+                    <span class="title">Time Tracker</span>
+                    <div class="dates">
+                        <span class="icon">📅</span>
+                        <span class="fullname">Today</span>
+                        <span class="icon">▼</span>
+                    </div>
+                </div>
+                
+                <div class="monthly">
+                    <span class="title">Monthly Total</span>
+                </div>
+                
+                <div class="circle__hour">
+                    <svg class="progress-ring" width="120" height="120">
+                        <circle class="progress-ring__circle" stroke="#22c55e" border-radius="10" stroke-width="6" fill="transparent" r="52" cx="60"
+                            cy="60" />
+                    </svg>
+                    <div class="circle">
+                        <span class="hour" id="timeDisplay">00:00</span>
+                        <span class="text__hour">HOURS</span>
+                    </div>
+                </div>
+                
+                <div class="btn__start__tracker">
+                    <div class="btn__play">
+                        <button id="pauseBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M9 4h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2z"></path>
+                            <path d="M17 4h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2z"></path>
+                        </svg></button>
+                        <button id="forwardBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path
+                                d="M7 6l-.112 .006a1 1 0 0 0 -.669 1.619l3.501 4.375l-3.5 4.375a1 1 0 0 0 .78 1.625h6a1 1 0 0 0 .78 -.375l4 -5a1 1 0 0 0 0 -1.25l-4 -5a1 1 0 0 0 -.78 -.375h-6z">
+                            </path>
+                        </svg></button>
+                    </div>
+                    <div class="btn__add">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" width="24" height="24" stroke-width="1.5">
+                            <path d="M12 5l0 14"></path>
+                            <path d="M5 12l14 0"></path>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="month">
+                    <h2>Calendar</h2>
+                    <div class="action">
+                        <button id="prev">&larr;</button>
+                        <span id="month-year">November</span>
+                        <button id="next">&rarr;</button>
+                    </div>
+                </div>
+                <div class="days-of-week">
+                    <div class="day">Sun</div>
+                    <div class="day">Mon</div>
+                    <div class="day">Tue</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+                    <div class="day">Sat</div>
+                </div>
+                <div class="dates" id="dates"></div>
+            </div>
+            <div class="chart__tracker">
+                <div class="tracker__table">
+                    <div class="header">
+                        <h2>Latest transactions</h2>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="transaction-row">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User">
+                            <div class="user-details">
+                                <span>Jakob Joness</span>
+                                <span>2151345-9876</span>
+                            </div>
+                        </div>
+                        <div class="status inprogress">
+                            <span class="status-icon"></span>
+                            Inprogress
+                        </div>
+                        <div class="source">Online</div>
+                        <div class="amount">$1200500</div>
+                    </div>
+                    <div class="transaction-row">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User">
+                            <div class="user-details">
+                                <span>Jakob Joness</span>
+                                <span>2151347-9876</span>
+                            </div>
+                        </div>
+                        <div class="status done">
+                            <span class="status-icon"></span>
+                            Done
+                        </div>
+                        <div class="source">Apple Store</div>
+                        <div class="amount">$3334550</div>
+                    </div>
+                    <div class="transaction-row">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User">
+                            <div class="user-details">
+                                <span>Jakob Joness</span>
+                                <span>2151457-9876</span>
+                            </div>
+                        </div>
+                        <div class="status warning">
+                            <span class="status-icon"></span>
+                            Warning
+                        </div>
+                        <div class="source">Louis Vuitton</div>
+                        <div class="amount">$8334566</div>
+                    </div>
+                    <div class="transaction-row">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User">
+                            <div class="user-details">
+                                <span>Jakob Joness</span>
+                                <span>2151457-9876</span>
+                            </div>
+                        </div>
+                        <div class="status done">
+                            <span class="status-icon"></span>
+                            Done
+                        </div>
+                        <div class="source">Online</div>
+                        <div class="amount">$1234566</div>
+                    </div>
+                    <div class="transaction-row">
+                        <div class="user-info">
+                            <img src="https://via.placeholder.com/40" alt="User">
+                            <div class="user-details">
+                                <span>Jakob Joness</span>
+                                <span>2151345-9876</span>
+                            </div>
+                        </div>
+                        <div class="status inprogress">
+                            <span class="status-icon"></span>
+                            Inprogress
+                        </div>
+                        <div class="source">Online</div>
+                        <div class="amount">$1869500</div>
+                    </div>
+                </div>
+            </div>
+            <div class="location">
+                <div class="flex__location">
+                    <span class="title">Top places</span>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" width="18" height="18" stroke-width="1.5">
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                    </svg>
+                </div>
+                <div class="image__location">
+                    <img src="../assets/images/location.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../scripts/main.js"></script>
+<script src="../scripts/statistics.js"></script>
+<script>
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+
+    let currentDate = new Date(2025, 5, 2); // Starting with November 2023, 9th selected
+    let selectedDate = 2;
+
+    function renderCalendar() {
+        const monthYear = document.getElementById("month-year");
+        const datesContainer = document.getElementById("dates");
+        datesContainer.innerHTML = "";
+
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+        monthYear.textContent = `${months[month]} ${year}`;
+
+        const firstDay = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const daysInPrevMonth = new Date(year, month, 0).getDate();
+
+        // Add previous month's dates
+        for (let i = firstDay - 1; i >= 0; i--) {
+            const dateDiv = document.createElement("div");
+            dateDiv.classList.add("date", "other-month");
+            dateDiv.textContent = daysInPrevMonth - i;
+            datesContainer.appendChild(dateDiv);
+        }
+
+        // Add current month's dates
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dateDiv = document.createElement("div");
+            dateDiv.classList.add("date");
+            dateDiv.textContent = day < 10 ? `0${day}` : day;
+            if (day === selectedDate && currentDate.getMonth() === month && currentDate.getFullYear() === year) {
+                dateDiv.classList.add("selected");
+            }
+            dateDiv.addEventListener("click", () => {
+                selectedDate = day;
+                document.querySelectorAll(".date").forEach(d => d.classList.remove("selected"));
+                dateDiv.classList.add("selected");
+            });
+            datesContainer.appendChild(dateDiv);
+        }
+
+        // Add next month's dates to fill the grid
+        const totalCells = firstDay + daysInMonth;
+        const remainingCells = (7 - (totalCells % 7)) % 7;
+        for (let i = 1; i <= remainingCells; i++) {
+            const dateDiv = document.createElement("div");
+            dateDiv.classList.add("date", "other-month");
+            dateDiv.textContent = i < 10 ? `0${i}` : i;
+            datesContainer.appendChild(dateDiv);
+        }
+    }
+
+    document.getElementById("prev").addEventListener("click", () => {
+        currentDate.setMonth(currentDate.getMonth() - 1);
+        renderCalendar();
+    });
+
+    document.getElementById("next").addEventListener("click", () => {
+        currentDate.setMonth(currentDate.getMonth() + 1);
+        renderCalendar();
+    });
+
+    renderCalendar();
+</script>
+</html>
